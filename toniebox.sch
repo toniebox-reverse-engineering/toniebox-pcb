@@ -1,0 +1,333 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CC3200:CC3200 U2
+U 1 1 5E1F4141
+P 3800 3600
+F 0 "U2" H 3800 5931 50  0000 C CNN
+F 1 "CC3200" H 3800 5840 50  0000 C CNN
+F 2 "" H 3800 1800 60  0000 C CNN
+F 3 "" H 3800 1800 60  0000 C CNN
+	1    3800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tag-Connect:TC2050-IDC P?
+U 1 1 5E1F8990
+P 2750 7400
+F 0 "P?" H 2750 7792 40  0000 C CNN
+F 1 "TC2050-IDC" H 2750 7716 40  0000 C CNN
+F 2 "" H 2750 7400 50  0001 C CNN
+F 3 "" H 2750 7400 50  0001 C CNN
+	1    2750 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 7300 3300 7300
+$Comp
+L power:GND #PWR?
+U 1 1 5E26A1A4
+P 4750 7850
+F 0 "#PWR?" H 4750 7600 50  0001 C CNN
+F 1 "GND" H 4755 7677 50  0000 C CNN
+F 2 "" H 4750 7850 50  0001 C CNN
+F 3 "" H 4750 7850 50  0001 C CNN
+	1    4750 7850
+	1    0    0    -1  
+$EndComp
+Connection ~ 3300 7300
+Wire Wire Line
+	3300 7300 3750 7300
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5E2741C8
+P 4650 7300
+F 0 "Q?" H 4854 7346 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 4854 7255 50  0000 L CNN
+F 2 "" H 4850 7400 50  0001 C CNN
+F 3 "~" H 4650 7300 50  0001 C CNN
+	1    4650 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E275740
+P 4200 7000
+F 0 "R?" H 4270 7046 50  0000 L CNN
+F 1 "100" H 4270 6955 50  0000 L CNN
+F 2 "" V 4130 7000 50  0001 C CNN
+F 3 "~" H 4200 7000 50  0001 C CNN
+	1    4200 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5E275BC9
+P 4750 6200
+F 0 "R12" H 4820 6246 50  0000 L CNN
+F 1 "100k" H 4820 6155 50  0000 L CNN
+F 2 "" V 4680 6200 50  0001 C CNN
+F 3 "~" H 4750 6200 50  0001 C CNN
+	1    4750 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5E276177
+P 3750 7000
+F 0 "R10" H 3820 7046 50  0000 L CNN
+F 1 "N/A" H 3820 6955 50  0000 L CNN
+F 2 "" V 3680 7000 50  0001 C CNN
+F 3 "~" H 3750 7000 50  0001 C CNN
+	1    3750 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5E276416
+P 4200 7600
+F 0 "R14" H 4270 7646 50  0000 L CNN
+F 1 "2k7" H 4270 7555 50  0000 L CNN
+F 2 "" V 4130 7600 50  0001 C CNN
+F 3 "~" H 4200 7600 50  0001 C CNN
+	1    4200 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 5700 3300 7300
+Wire Wire Line
+	3100 5700 3100 6400
+Wire Wire Line
+	3100 6400 4750 6400
+Wire Wire Line
+	4750 6400 4750 6350
+Connection ~ 4750 6400
+Wire Wire Line
+	4750 6050 4750 5900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E27AFFC
+P 4750 5900
+F 0 "#PWR?" H 4750 5750 50  0001 C CNN
+F 1 "+3.3V" H 4765 6073 50  0000 C CNN
+F 2 "" H 4750 5900 50  0001 C CNN
+F 3 "" H 4750 5900 50  0001 C CNN
+	1    4750 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 7450 4200 7300
+Connection ~ 4200 7300
+Wire Wire Line
+	4200 7300 4450 7300
+Wire Wire Line
+	4750 7500 4750 7850
+Wire Wire Line
+	4200 7750 4200 7850
+Wire Wire Line
+	4200 7850 4750 7850
+Connection ~ 4750 7850
+Wire Wire Line
+	4200 7300 4200 7150
+Wire Wire Line
+	4200 6850 4200 6750
+Wire Wire Line
+	3750 7150 3750 7300
+Connection ~ 3750 7300
+Wire Wire Line
+	3750 7300 4200 7300
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E280A29
+P 3750 6700
+F 0 "#PWR?" H 3750 6550 50  0001 C CNN
+F 1 "+3.3V" H 3765 6873 50  0000 C CNN
+F 2 "" H 3750 6700 50  0001 C CNN
+F 3 "" H 3750 6700 50  0001 C CNN
+	1    3750 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 6850 3750 6700
+Wire Wire Line
+	4750 6400 4750 7100
+Wire Wire Line
+	4750 6400 5400 6400
+$Comp
+L Connector:TestPoint TP371
+U 1 1 5E2826D7
+P 5400 6400
+F 0 "TP371" H 5458 6518 50  0000 L CNN
+F 1 "TestPoint" H 5458 6427 50  0000 L CNN
+F 2 "" H 5600 6400 50  0001 C CNN
+F 3 "~" H 5600 6400 50  0001 C CNN
+	1    5400 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E2835C8
+P 2600 6250
+F 0 "R?" H 2670 6296 50  0000 L CNN
+F 1 "R" H 2670 6205 50  0000 L CNN
+F 2 "" V 2530 6250 50  0001 C CNN
+F 3 "~" H 2600 6250 50  0001 C CNN
+	1    2600 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E2847BC
+P 2600 6500
+F 0 "#PWR?" H 2600 6250 50  0001 C CNN
+F 1 "GND" H 2605 6327 50  0000 C CNN
+F 2 "" H 2600 6500 50  0001 C CNN
+F 3 "" H 2600 6500 50  0001 C CNN
+	1    2600 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP371
+U 1 1 5E285182
+P 2050 5950
+F 0 "TP371" H 2108 6068 50  0000 L CNN
+F 1 "TestPoint" H 2108 5977 50  0000 L CNN
+F 2 "" H 2250 5950 50  0001 C CNN
+F 3 "~" H 2250 5950 50  0001 C CNN
+	1    2050 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 6050 2600 6050
+Wire Wire Line
+	3200 5700 3200 6050
+Wire Wire Line
+	2600 6050 2600 6100
+Wire Wire Line
+	2600 6400 2600 6500
+Connection ~ 2600 6050
+$Comp
+L Device:R R11
+U 1 1 5E289811
+P 2600 5850
+F 0 "R11" H 2670 5896 50  0000 L CNN
+F 1 "N/A" H 2670 5805 50  0000 L CNN
+F 2 "" V 2530 5850 50  0001 C CNN
+F 3 "~" H 2600 5850 50  0001 C CNN
+	1    2600 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 6000 2600 6050
+Wire Wire Line
+	5450 2600 5800 2600
+Wire Wire Line
+	5450 2700 5800 2700
+Text Label 5800 2700 0    50   ~ 0
+RX
+Text Label 5800 2600 0    50   ~ 0
+TX1
+Wire Wire Line
+	2500 7200 2150 7200
+Wire Wire Line
+	2500 7300 2150 7300
+Text Label 2150 7300 2    50   ~ 0
+RX
+Text Label 2150 7200 2    50   ~ 0
+TX
+Wire Wire Line
+	1900 7400 1900 7300
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E28C454
+P 1900 7300
+F 0 "#PWR?" H 1900 7150 50  0001 C CNN
+F 1 "+3.3V" H 1915 7473 50  0000 C CNN
+F 2 "" H 1900 7300 50  0001 C CNN
+F 3 "" H 1900 7300 50  0001 C CNN
+	1    1900 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 7400 1900 7400
+Wire Wire Line
+	4650 1450 4650 1250
+Wire Wire Line
+	4650 1250 4950 1250
+Text Label 4950 1250 0    50   ~ 0
+~RST
+Text Label 2150 7500 2    50   ~ 0
+~RST
+Wire Wire Line
+	2500 7500 2150 7500
+Wire Wire Line
+	2500 7600 2300 7600
+Wire Wire Line
+	2300 7600 2300 7700
+$Comp
+L power:GND #PWR?
+U 1 1 5E29123F
+P 2300 7700
+F 0 "#PWR?" H 2300 7450 50  0001 C CNN
+F 1 "GND" H 2305 7527 50  0000 C CNN
+F 2 "" H 2300 7700 50  0001 C CNN
+F 3 "" H 2300 7700 50  0001 C CNN
+	1    2300 7700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 7600 3300 7600
+Wire Wire Line
+	2150 4100 1850 4100
+Text Label 1850 4100 0    50   ~ 0
+TBC1
+Text Label 3300 7600 0    50   ~ 0
+TBC1
+Wire Wire Line
+	3000 7500 3300 7500
+Wire Wire Line
+	3700 6300 3900 6300
+Wire Wire Line
+	3700 5700 3700 6300
+Wire Wire Line
+	3800 5700 3800 6200
+Wire Wire Line
+	3800 6200 3900 6200
+Text Label 3300 7400 0    50   ~ 0
+TMS
+Text Label 3900 6300 0    50   ~ 0
+TCK
+Wire Wire Line
+	3000 7400 3300 7400
+Text Label 3300 7500 0    50   ~ 0
+TCK
+Wire Wire Line
+	3000 7200 3150 7200
+Text Label 3150 7200 0    50   ~ 0
+TBC2
+Text Label 3150 8450 0    50   ~ 0
+TBC2
+Wire Wire Line
+	3150 8450 2900 8450
+Text Notes 2450 8550 0    50   ~ 0
+U3 IS25LQ032B\n\nWP#/IO2\nHOLD#/IO3
+Text Label 3900 6200 0    50   ~ 0
+TMS
+Wire Wire Line
+	2050 6050 2050 5950
+Wire Wire Line
+	2050 6050 2600 6050
+$EndSCHEMATC
