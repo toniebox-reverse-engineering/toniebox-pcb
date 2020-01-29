@@ -23,7 +23,7 @@ CC3200 footprint: https://raw.githubusercontent.com/Turegano/CC3200/master/lib/C
 | TP16  |              |                   |
 | TP17  | K9 pin 1     | speaker           |
 | TP18  | K9 pin 2     | speaker           |
-| TP19  |              |                   |
+| TP19  | U1 pin 31    | DAC !RESET        |
 | TP20  |              |                   |
 | TP21  |              |                   |
 | TP22  |              |                   |
@@ -50,7 +50,7 @@ CC3200 footprint: https://raw.githubusercontent.com/Turegano/CC3200/master/lib/C
 | TP45  |              |                   |
 | TP46  |              |                   |
 | TP47  |              |                   |
-| TP48  |              |                   |
+| TP48  | U2 pin 61    | 
 | TP49  |              |                   |
 | TP50  |              |                   |
 | TP51  |              |                   |
