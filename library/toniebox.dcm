@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AT25SF081-XMHF-X
+D 8-Mbit, 2.3V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, TSSOP-8
+K SPI DSPI QSPI 8Mbit 2.3V
+F https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
+$ENDCMP
+#
+$CMP IS25LQ032B-JNLE
+D 32-Mbit, 3V QUAD SERIAL FLASH MEMORY WITH MULTI-I/O SPI
+K SPI  32Mbit 3V
+F http://www.issi.com/WW/pdf/25LQ080B-016B-032B.pdf
+$ENDCMP
+#
+#End Doc Library

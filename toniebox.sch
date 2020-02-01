@@ -1752,7 +1752,7 @@ Wire Wire Line
 Text Label 18000 3800 0    50   ~ 0
 TBC3
 Text Notes 16950 3850 0    50   ~ 0
-U8 \n\nPIN5\n\nPIN3
+U8 AP2112K-3.3TRG1?\n\nPIN5\n\nPIN3
 Wire Wire Line
 	17600 3800 17200 3800
 Connection ~ 17600 3800
@@ -1881,4 +1881,6 @@ F 3 "" H 17450 3550 50  0001 C CNN
 	1    17450 3550
 	1    0    0    -1  
 $EndComp
+Text Notes 16900 2700 0    50   ~ 0
+U9 AP2120N-1.8TRG1?\n
 $EndSCHEMATC

@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name CC3200)(type Legacy)(uri ${KIPRJMOD}/library/CC3200.lib)(options "")(descr ""))
   (lib (name Tag-Connect)(type Legacy)(uri ${KIPRJMOD}/library/Tag-Connect.lib)(options "")(descr ""))
+  (lib (name toniebox)(type Legacy)(uri ${KIPRJMOD}/library/toniebox.lib)(options "")(descr ""))
 )
