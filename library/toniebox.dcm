@@ -1,15 +1,21 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP AT25SF081-XMHF-X
-D 8-Mbit, 2.3V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, TSSOP-8
-K SPI DSPI QSPI 8Mbit 2.3V
-F https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
+$CMP AP2120N-1.8
+D 150mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23
+K 150mA LDO Regulator Fixed Positive
+F https://www.diodes.com/assets/Datasheets/AP2120.pdf
 $ENDCMP
 #
 $CMP IS25LQ032B-JNLE
 D 32-Mbit, 3V QUAD SERIAL FLASH MEMORY WITH MULTI-I/O SPI
-K SPI  32Mbit 3V
+K SPI 32Mbit 3V
 F http://www.issi.com/WW/pdf/25LQ080B-016B-032B.pdf
+$ENDCMP
+#
+$CMP TLV320DAC3100
+D Low-Power Stereo Audio DAC With Audio Processing and Mono Class-D Speaker Amplifier
+K I2C
+F https://www.ti.com/lit/ds/symlink/tlv320dac3100.pdf
 $ENDCMP
 #
 #End Doc Library
