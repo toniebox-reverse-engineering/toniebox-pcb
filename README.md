@@ -1,6 +1,40 @@
 # Toniebox PCB
 
-CC3200 footprint: https://raw.githubusercontent.com/Turegano/CC3200/master/lib/CC3200.lib
+Repository which will lead to a complete schematic of a Toniebox PCB. The schematic is done with KiCad.
+
+
+Source of CC3200 footprint: https://raw.githubusercontent.com/Turegano/CC3200/master/lib/CC3200.lib
+
+## Table Of Contents
+- [Toniebox PCB](#toniebox-pcb)
+  - [Table Of Contents](#table-of-contents)
+  - [Folders](#folders)
+  - [Status](#status)
+  - [Testpoints](#testpoints)
+
+
+## Folders
+
+* [datasheets](datasheets/)
+* [doc](doc/): documentation
+* [library](library/): KiCad libraries
+
+## Status
+
+
+![Top](doc/progress_top.png)
+
+![Bottom](doc/progress_bottom.png)
+
+* red dot: fully documented
+* blue dot: partially documented
+
+### Remaining Work
+
+* create subsheets for logical blocks
+* create pinout of ASICs
+* document remaining testpoints
+  
 
 ## Testpoints
 
