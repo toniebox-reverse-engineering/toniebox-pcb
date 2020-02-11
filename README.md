@@ -1,11 +1,14 @@
-View this project on [CADLAB.io](https://cadlab.io/project/2472). 
+
 
 # Toniebox PCB
 
 Repository which will lead to a complete schematic of a Toniebox PCB. The schematic is done with KiCad.
 
+View this project on [CADLAB.io](https://cadlab.io/project/2472). 
 
 Source of CC3200 footprint: https://raw.githubusercontent.com/Turegano/CC3200/master/lib/CC3200.lib
+
+
 
 ## Table Of Contents
 - [Toniebox PCB](#toniebox-pcb)
