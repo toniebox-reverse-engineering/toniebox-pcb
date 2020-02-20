@@ -3,4 +3,5 @@
   (lib (name Tag-Connect)(type Legacy)(uri ${KIPRJMOD}/library/Tag-Connect.lib)(options "")(descr ""))
   (lib (name toniebox)(type Legacy)(uri ${KIPRJMOD}/library/toniebox.lib)(options "")(descr ""))
   (lib (name 3210retro-cache)(type Legacy)(uri /tmp/3210retro-cache.lib)(options "")(descr ""))
+  (lib (name DM3CS-SF)(type Legacy)(uri ${KIPRJMOD}/library/DM3CS-SF.lib)(options "")(descr ""))
 )

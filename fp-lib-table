@@ -128,4 +128,5 @@
   (lib (name Valve)(type KiCad)(uri ${KISYSMOD}/Valve.pretty)(options "")(descr ""))
   (lib (name Varistor)(type KiCad)(uri ${KISYSMOD}/Varistor.pretty)(options "")(descr ""))
   (lib (name digikey-footprints)(type KiCad)(uri /opt/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name library)(type KiCad)(uri ${KIPRJMOD}/library)(options "")(descr ""))
 )

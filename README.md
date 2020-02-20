@@ -47,7 +47,7 @@ Source of CC3200 footprint: https://raw.githubusercontent.com/Turegano/CC3200/ma
 | ----- | ------------ | ----------------- |
 | TP1   |              |                   |
 | TP2   |              |                   |
-| TP3   |              |                   |
+| TP3   | K2 pin 9     | SD detect         |
 | TP4   |              |                   |
 | TP5   |              |                   |
 | TP6   |              |                   |
@@ -89,7 +89,7 @@ Source of CC3200 footprint: https://raw.githubusercontent.com/Turegano/CC3200/ma
 | TP45  |              |                   |
 | TP46  |              |                   |
 | TP47  |              |                   |
-| TP48  | U2 pin 61    | 
+| TP48  | U2 pin 61    |
 | TP49  |              |                   |
 | TP50  |              |                   |
 | TP51  |              |                   |
@@ -115,13 +115,13 @@ Source of CC3200 footprint: https://raw.githubusercontent.com/Turegano/CC3200/ma
 | TP322 |              |                   |
 | TP341 |              |                   |
 | TP342 |              |                   |
-| TP350 |              |                   |
-| TP351 |              |                   |
+| TP350 | U2 pin 3     | I2C_SCL           |
+| TP351 | U2 pin 4     | I2C_SDA           |
 | TP355 |              |                   |
 | TP356 |              |                   |
 | TP357 |              |                   |
 | TP358 |              |                   |
-| TP360 |              |                   |
+| TP360 | K2 pin 4     | SD VDD            |
 | TP361 |              |                   |
 | TP370 | SOP1         |                   |
 | TP371 | SOP0         |                   |
