@@ -1,27 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Generic_Conn_01x03
-#
-DEF Connector_Generic_Conn_01x03 J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Generic_Conn_01x03" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 50 -150 1 1 10 f
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Connector_TestPoint
 #
 DEF Connector_TestPoint TP 0 30 N N 1 F N
@@ -294,6 +273,33 @@ X GND/TAB 65 600 -2900 200 U 50 50 1 1 W
 X GPIO16 7 -800 900 200 R 50 50 1 1 B
 X GPIO17 8 -800 800 200 R 50 50 1 1 B
 X VDD_DIG1 9 -100 1800 200 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# dk_Rectangular-Connectors-Headers-Male-Pins_B3B-PH-K-S_LF__SN_
+#
+DEF dk_Rectangular-Connectors-Headers-Male-Pins_B3B-PH-K-S_LF__SN_ J 0 40 Y Y 1 F N
+F0 "J" -100 100 50 H V R CNN
+F1 "dk_Rectangular-Connectors-Headers-Male-Pins_B3B-PH-K-S_LF__SN_" 100 -100 50 H V C CNN
+F2 "digikey-footprints:PinHeader_1x3_P2mm_Drill1mm" 200 200 60 H I L CNN
+F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" 200 300 60 H I L CNN
+F4 "455-1705-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "B3B-PH-K-S(LF)(SN)" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Rectangular Connectors - Headers, Male Pins" 200 700 60 H I L CNN "Family"
+F8 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/jst-sales-america-inc/B3B-PH-K-S(LF)(SN)/455-1705-ND/926612" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN HEADER VERT 3POS 2MM" 200 1000 60 H I L CNN "Description"
+F11 "JST Sales America Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -50 50 250 -50 1 1 0 f
+S -10 5 10 -15 1 1 0 F
+S 90 5 110 -15 1 1 0 F
+S 190 5 210 -15 1 1 0 F
+X ~ 1 0 150 100 D 50 50 1 1 P
+X ~ 2 100 150 100 D 50 50 1 1 P
+X ~ 3 200 150 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

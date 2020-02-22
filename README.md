@@ -60,7 +60,7 @@ Source of CC3200 footprint: https://raw.githubusercontent.com/Turegano/CC3200/ma
 | TP14  |              |                   |
 | TP15  |              |                   |
 | TP16  |              |                   |
-| TP17  | K9 pin 1     | speaker           |
+| TP17  | K9 pin 3     | speaker           |
 | TP18  | K9 pin 2     | speaker           |
 | TP19  | U1 pin 31    | DAC !RESET        |
 | TP20  |              |                   |
@@ -69,12 +69,12 @@ Source of CC3200 footprint: https://raw.githubusercontent.com/Turegano/CC3200/ma
 | TP23  |              |                   |
 | TP24  |              |                   |
 | TP25  | U4 pin 3     | Accelerometer DNC |
-| TP26  | K4 pin 3     | ears              |
+| TP26  | K4 pin 1     | ears              |
 | TP27  | D10 pin 1    | LED red -         |
 | TP28  | D10 pin 2    | LED green -       |
 | TP29  | D10 pin 3    | LED blue -        |
 | TP30  |              |                   |
-| TP31  | K4 pin 1     | ears              |
+| TP31  | K4 pin 3     | ears              |
 | TP32  |              |                   |
 | TP33  |              |                   |
 | TP34  |              |                   |

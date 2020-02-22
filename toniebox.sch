@@ -819,12 +819,12 @@ $EndComp
 $Comp
 L Connector:TestPoint TP38
 U 1 1 5E31677D
-P 7450 2800
-F 0 "TP38" H 7508 2918 50  0000 L CNN
-F 1 "TestPoint" H 7508 2827 50  0000 L CNN
-F 2 "" H 7650 2800 50  0001 C CNN
-F 3 "~" H 7650 2800 50  0001 C CNN
-	1    7450 2800
+P 9000 10700
+F 0 "TP38" H 9058 10818 50  0000 L CNN
+F 1 "TestPoint" H 9058 10727 50  0000 L CNN
+F 2 "" H 9200 10700 50  0001 C CNN
+F 3 "~" H 9200 10700 50  0001 C CNN
+	1    9000 10700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -918,13 +918,13 @@ $EndComp
 $Comp
 L Connector:TestPoint TP45
 U 1 1 5E3167E1
-P 7950 3100
-F 0 "TP45" H 8008 3218 50  0000 L CNN
-F 1 "TestPoint" H 8008 3127 50  0000 L CNN
-F 2 "" H 8150 3100 50  0001 C CNN
-F 3 "~" H 8150 3100 50  0001 C CNN
-	1    7950 3100
-	1    0    0    -1  
+P 8700 11100
+F 0 "TP45" H 8758 11218 50  0000 L CNN
+F 1 "TestPoint" H 8758 11127 50  0000 L CNN
+F 2 "" H 8900 11100 50  0001 C CNN
+F 3 "~" H 8900 11100 50  0001 C CNN
+	1    8700 11100
+	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:TestPoint TP52
@@ -1387,17 +1387,6 @@ F 3 "" H 6400 8850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6250 8650 6900 8650
-$Comp
-L Connector_Generic:Conn_01x03 K9
-U 1 1 5E37BC23
-P 6050 8650
-F 0 "K9" H 5968 8967 50  0000 C CNN
-F 1 "Conn_01x03" H 5968 8876 50  0000 C CNN
-F 2 "" H 6050 8650 50  0001 C CNN
-F 3 "~" H 6050 8650 50  0001 C CNN
-	1    6050 8650
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	6300 7450 6600 7450
 Wire Wire Line
@@ -1426,17 +1415,6 @@ F 3 "" H 7050 7750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6300 7550 7050 7550
-$Comp
-L Connector_Generic:Conn_01x03 K4
-U 1 1 5E34806A
-P 6100 7550
-F 0 "K4" H 6018 7867 50  0000 C CNN
-F 1 "Conn_01x03" H 6018 7776 50  0000 C CNN
-F 2 "" H 6100 7550 50  0001 C CNN
-F 3 "~" H 6100 7550 50  0001 C CNN
-	1    6100 7550
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Connector:TestPoint TP18
 U 1 1 5E30EBC7
@@ -2058,7 +2036,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 12450 4400 12300
 Text Notes 1150 14600 0    150  ~ 0
-R17-22, K2, R73, R74, T360\nTP351, TP350, TP360, TP3
+R17-22, K2, R73, R74, T360, K8, BQ24400\nTP351, TP350, TP360, TP3, TP38, TP45
 Text Notes 5400 12800 0    50   ~ 0
 SD VDD -> ?
 $Comp
@@ -2338,16 +2316,107 @@ Wire Wire Line
 $Comp
 L Device:R R360
 U 1 1 5E72EE90
-P 3250 12700
-F 0 "R360" H 3320 12746 50  0000 L CNN
-F 1 "N/A" H 3320 12655 50  0000 L CNN
-F 2 "" V 3180 12700 50  0001 C CNN
-F 3 "~" H 3250 12700 50  0001 C CNN
-	1    3250 12700
+P 1850 11000
+F 0 "R360" H 1920 11046 50  0000 L CNN
+F 1 "N/A" H 1920 10955 50  0000 L CNN
+F 2 "" V 1780 11000 50  0001 C CNN
+F 3 "~" H 1850 11000 50  0001 C CNN
+	1    1850 11000
 	0    -1   -1   0   
 $EndComp
 Text Notes 2200 11100 0    100  ~ 0
 ?
 Wire Wire Line
 	4100 11300 5100 11300
+Wire Wire Line
+	1050 4250 750  4250
+NoConn ~ 750  4250
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:B3B-PH-K-S_LF__SN_ K9
+U 1 1 5E555946
+P 6100 8750
+F 0 "K9" V 6515 8808 50  0000 C CNN
+F 1 "B3B-PH-SM4-TB" V 6424 8808 50  0000 C CNN
+F 2 "" H 6300 8950 60  0001 L CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 6300 9050 60  0001 L CNN
+F 4 "455-1735-1-ND" H 6300 9150 60  0001 L CNN "Digi-Key_PN"
+F 5 "B3B-PH-SM4-TB(LF)(SN)" H 6300 9250 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 6300 9350 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 6300 9450 60  0001 L CNN "Family"
+F 8 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 6300 9550 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "" H 6300 9650 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 3POS 2MM" H 6300 9750 60  0001 L CNN "Description"
+F 11 "JST Sales America Inc." H 6300 9850 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6300 9950 60  0001 L CNN "Status"
+	1    6100 8750
+	0    1    -1   0   
+$EndComp
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:B3B-PH-K-S_LF__SN_ K8
+U 1 1 5E5571CA
+P 8150 11000
+F 0 "K8" V 8565 11058 50  0000 C CNN
+F 1 "B3B-PH-SM4-TB" V 8474 11058 50  0000 C CNN
+F 2 "" H 8350 11200 60  0001 L CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 8350 11300 60  0001 L CNN
+F 4 "455-1735-1-ND" H 8350 11400 60  0001 L CNN "Digi-Key_PN"
+F 5 "B3B-PH-SM4-TB(LF)(SN)" H 8350 11500 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 8350 11600 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 8350 11700 60  0001 L CNN "Family"
+F 8 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 8350 11800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "" H 8350 11900 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 3POS 2MM" H 8350 12000 60  0001 L CNN "Description"
+F 11 "JST Sales America Inc." H 8350 12100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8350 12200 60  0001 L CNN "Status"
+	1    8150 11000
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8300 10900 9000 10900
+Wire Wire Line
+	9000 10900 9000 11200
+$Comp
+L power:GND #PWR?
+U 1 1 5E565A7A
+P 9000 11200
+F 0 "#PWR?" H 9000 10950 50  0001 C CNN
+F 1 "GND" H 9005 11027 50  0000 C CNN
+F 2 "" H 9000 11200 50  0001 C CNN
+F 3 "" H 9000 11200 50  0001 C CNN
+	1    9000 11200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 10800 9000 10800
+Wire Wire Line
+	9000 10800 9000 10700
+Wire Wire Line
+	8300 11000 8700 11000
+Wire Wire Line
+	8700 11000 8700 11100
+Wire Wire Line
+	8700 11000 9400 11000
+Connection ~ 8700 11000
+Text Notes 9550 11000 0    50   ~ 0
+BQ24400\npin 5\n
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:B3B-PH-K-S_LF__SN_ K4
+U 1 1 5E59A21A
+P 6150 7650
+F 0 "K4" V 6565 7708 50  0000 C CNN
+F 1 "B3B-ZR-SM4-TF" V 6474 7708 50  0000 C CNN
+F 2 "" H 6350 7850 60  0001 L CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eZH.pdf" H 6350 7950 60  0001 L CNN
+F 4 "455-1682-1-ND" H 6350 8050 60  0001 L CNN "Digi-Key_PN"
+F 5 "B3B-ZR-SM4-TF(LF)(SN)" H 6350 8150 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 6350 8250 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 6350 8350 60  0001 L CNN "Family"
+F 8 "http://www.jst-mfg.com/product/pdf/eng/eZH.pdf" H 6350 8450 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "" H 6350 8550 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 3POS 1.5MM" H 6350 8650 60  0001 L CNN "Description"
+F 11 "JST Sales America Inc." H 6350 8750 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6350 8850 60  0001 L CNN "Status"
+	1    6150 7650
+	0    1    -1   0   
+$EndComp
 $EndSCHEMATC
