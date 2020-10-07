@@ -1,5 +1,3 @@
-
-
 # Toniebox PCB
 
 Repository which will lead to a complete schematic of a Toniebox PCB. The schematic is done with KiCad.
@@ -15,6 +13,7 @@ Source of CC3200 footprint: https://raw.githubusercontent.com/Turegano/CC3200/ma
   - [Table Of Contents](#table-of-contents)
   - [Folders](#folders)
   - [Status](#status)
+  - [Block Diagrams](#block-diagrams)
   - [Testpoints](#testpoints)
 
 
@@ -40,6 +39,14 @@ Source of CC3200 footprint: https://raw.githubusercontent.com/Turegano/CC3200/ma
 * create pinout of ASICs
 * document remaining testpoints
   
+
+  T1: NSS40200LTG
+
+## Block Diagrams
+
+![Block diagram with testpoints ](doc/blockdiagram.jpg)
+
+![BQ24400 (charge IC) with testpoints](doc/schematic_bq24400.jpg)
 
 ## Testpoints
 
